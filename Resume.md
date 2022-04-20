@@ -39,15 +39,16 @@
 
 ## <img src="assets/project-diagram-solid.svg" width="30px"> 项目经历
 
+- **Algorithm** ([https://github.com/howz97/algorithm](https://github.com/howz97/algorithm))
+
+  Golang实现，几乎涵盖[《算法》](https://book.douban.com/subject/19952400/)(Sedgewick著) 提及的所有数据结构与算法。
+
 - **MIT6.824** (Github私有库)
 
   - 完成所有实验（MapReduce,Raft,KVRaft,ShardKV），通过Challenge测试
   - 读了Spring 2022列出的所有论文
   - 学习了Etcd的Raft实现
 
-- **Algorithm** ([https://github.com/howz97/algorithm](https://github.com/howz97/algorithm))
-
-  Golang实现，几乎涵盖[《算法》](https://book.douban.com/subject/19952400/)(4th,Sedgewick著) 提及的所有数据结构与算法。
 ## <img src="assets/tools-solid.svg" width="30px"> 技能
 
 - ★★★ Golang、算法、Raft
