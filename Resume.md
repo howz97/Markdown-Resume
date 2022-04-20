@@ -39,7 +39,7 @@
 
 ## <img src="assets/project-diagram-solid.svg" width="30px"> 项目经历
 
-- **Algorithm** ([https://github.com/howz97/algorithm](https://github.com/howz97/algorithm))
+- [**Algorithm**](https://github.com/howz97/algorithm)
 
   Golang实现，几乎涵盖[《算法》](https://book.douban.com/subject/19952400/)(Sedgewick著) 提及的所有数据结构与算法。
 
@@ -48,6 +48,10 @@
   - 完成所有实验（MapReduce,Raft,KVRaft,ShardKV），通过Challenge测试
   - 读了Spring 2022列出的所有论文
   - 学习了Etcd的Raft实现
+
+- [**Timer**](https://crates.io/crates/time_wheel)
+  
+  Rust+时间轮算法实现的timer，同时支持AfterFunc和Ticker（借鉴Golang）
 
 ## <img src="assets/tools-solid.svg" width="30px"> 技能
 
