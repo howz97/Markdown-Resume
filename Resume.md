@@ -43,7 +43,7 @@
 
 - **Algorithm** : *https://github.com/howz97/algorithm*
 
-  教材[《算法》](https://book.douban.com/subject/19952400/)(Sedgewick著, 第4版) 的Golang实现。主题包括：排序、查找、图、字符串、优先队列
+  教材[《算法》](https://book.douban.com/subject/19952400/)(Sedgewick著, 第4版) 的Golang实现。项目首页可查看目录，主题涉及：排序、查找、图、字符串、优先队列
 
 - **MIT6.824** : *https://gitee.com/howz97/mit6.824*
 
@@ -63,6 +63,6 @@
 
 ## <img src="assets/tools-solid.svg" width="30px"> 技能
 
-- ★★★ Golang、Raft
+- ★★★ Golang、算法、Raft
 - ★★☆ Rust、分布式系统
 - ★☆☆ Spanner
