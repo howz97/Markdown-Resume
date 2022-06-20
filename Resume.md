@@ -41,23 +41,23 @@
 
 ## <img src="assets/project-diagram-solid.svg" width="30px"> 项目经历
 
-- [**Algorithm**](https://github.com/howz97/algorithm)
+- **Algorithm** : *https://github.com/howz97/algorithm*
 
   教材[《算法》](https://book.douban.com/subject/19952400/)(Sedgewick著, 第4版) 的Golang实现。主题包括：排序、查找、图、字符串、优先队列
 
-- [**MIT6.824**](https://gitee.com/howz97/mit6.824)
+- **MIT6.824** : *https://gitee.com/howz97/mit6.824*
 
-  MIT推出的分布式系统课程。实验是实现基于Raft的分片高可用KV存储。阅读了Spring 2022列出的论文。拓展阅读了Etcd的Raft源码
+  MIT推出的分布式系统课程。实验是实现基于Raft的分片高可用KV存储。阅读了Raft,Zookeeper,ChainReplication,Spanner,GFS,MapReduce等论文。拓展阅读了Etcd的Raft源码
 
-- [**TinyKV**](https://github.com/howz97/tinykv) (WIP)
+- **TinyKV** (WIP) : *https://github.com/howz97/tinykv*
 
   PingCAP Talent-Plan课程中的TP302系列。分为4个子项目，现已完成前2个
 
-- [**Talent-Plan TP201**](https://github.com/howz97/kvs)
+- **Talent-Plan TP201** : *https://github.com/howz97/kvs*
   
   PingCAP Talent-Plan课程中的TP201系列。Rust实现的kv存储，采用bitcask算法
 
-- [**Timer**](https://crates.io/crates/time_wheel)
+- **Timer** : *https://crates.io/crates/time_wheel*
   
   Rust实现的timer，采用多级时间轮结构。支持AfterFunc和Ticker接口（借鉴Golang）
 
@@ -65,4 +65,4 @@
 
 - ★★★ Golang、Raft
 - ★★☆ Rust、分布式系统
-- ★☆☆ Spanner、分布式事务、MapReduce、GFS、Zookeeper
+- ★☆☆ Spanner
