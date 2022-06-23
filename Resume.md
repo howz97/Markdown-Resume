@@ -26,7 +26,7 @@
  ## <img src="assets/info-circle-solid.svg" width="30px"> 个人信息 
 
  - 求职意向：后端/分布式
- - 编程语言：熟悉Golang，了解Rust
+ - 编程语言：熟悉Golang，使用过Rust
  - 自修基础：[《算法》](https://book.douban.com/subject/19952400/)，[《现代操作系统》](https://book.douban.com/subject/27096665/)，[《计算机网络：自顶向下》](https://book.douban.com/subject/30280001/)  ，[MIT6.824](https://pdos.csail.mit.edu/6.824/schedule.html)
 
 ## <img src="assets/graduation-cap-solid.svg" width="30px"> 教育经历
@@ -37,32 +37,32 @@
 
 - tap4fun，服务器开发工程师(Golang) 【2020.7~2021.11】
 
-   参与《猿族时代》的开发。后来负责《战地风暴》的开发与维护。在工作中逐渐熟悉Golang。
+   参与《猿族时代》的开发。后来负责《战地风暴》的开发与维护。工作中主要接触Golang。
 
-## <img src="assets/project-diagram-solid.svg" width="30px"> 项目经历
+## <img src="assets/project-diagram-solid.svg" width="30px"> 个人项目
 
 - **Algorithm** : *https://github.com/howz97/algorithm*
 
-  教材[《算法》](https://book.douban.com/subject/19952400/)(Sedgewick著, 第4版) 的Golang实现。项目首页可查看目录，主题涉及：排序、查找、图、字符串、优先队列
+  根据教材[《算法》](https://book.douban.com/subject/19952400/)(Sedgewick著) 实现的Golang算法库。项目首页可查看目录，主题涉及：排序、查找、图、字符串、优先队列
 
 - **MIT6.824** : *https://gitee.com/howz97/mit6.824*
 
-  MIT推出的分布式系统课程。实验是实现基于Raft的分片高可用KV存储。阅读了Raft,Zookeeper,ChainReplication,Spanner,GFS,MapReduce等论文。拓展阅读了Etcd的Raft源码
+  MIT推出的分布式系统课程。完成实验，实现基于Raft的分片高可用KV存储。研读过Raft,Zookeeper,ChainReplication,Spanner,GFS,MapReduce,Bitcoin等经典论文。拓展阅读了Etcd的Raft源码
 
 - **TinyKV** (WIP) : *https://github.com/howz97/tinykv*
 
-  PingCAP Talent-Plan课程中的TP302系列。分为4个子项目，现已完成前2个
+  PingCAP Talent-Plan课程中的TP302系列。分为4个子项目，现已完成前2个。实现了无锁的Raft
 
 - **Talent-Plan TP201** : *https://github.com/howz97/kvs*
   
-  PingCAP Talent-Plan课程中的TP201系列。Rust实现的kv存储，采用bitcask算法
+  PingCAP Talent-Plan课程中的TP201系列。Rust实现的kv存储，基于bitcask算法
 
 - **Timer** : *https://crates.io/crates/time_wheel*
   
-  Rust实现的timer，采用多级时间轮结构。支持AfterFunc和Ticker接口（借鉴Golang）
+  Rust实现的timer，使用多级时间轮结构。支持AfterFunc和Ticker接口（借鉴Go）
 
 ## <img src="assets/tools-solid.svg" width="30px"> 技能
 
 - ★★★ Golang、算法、Raft
 - ★★☆ Rust、分布式系统
-- ★☆☆ Spanner
+- ★☆☆ Spanner、区块链
