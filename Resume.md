@@ -43,19 +43,30 @@
 
 - **Algorithm** : *https://github.com/howz97/algorithm*
 
-  根据教材[《算法》](https://book.douban.com/subject/19952400/)(Sedgewick著) 实现的Golang算法库。项目首页可查看目录，主题涉及：排序、查找、图、字符串、优先队列
+  根据教材[《算法》](https://book.douban.com/subject/19952400/)(Sedgewick著) 实现的Golang算法库，应用泛型。项目首页可查看目录详情，简单列出：
+  - 排序。快速排序、堆排序、Shell排序、归并排序 等等
+  - 查找。二叉树、AVL、红黑树、哈希表
+  - 图。Kosaraju、Prim、Kruskal、Dijkstra、Topological、BellmanFord 等等
+  - 字符串。string排序、Trie树、子串查找、正则匹配、压缩算法
+  - 优先队列。二叉堆、左式堆、二项队列
 
 - **MIT6.824** : *https://gitee.com/howz97/mit6.824*
 
-  MIT推出的分布式系统课程。完成实验，实现基于Raft的分片高可用KV存储。研读过Raft,Zookeeper,ChainReplication,Spanner,GFS,MapReduce,Bitcoin等经典论文。拓展阅读了Etcd的Raft源码
+  MIT分布式系统课程。研读Raft,Zookeeper,ChainReplication,Spanner,GFS,MapReduce,Bitcoin等经典论文。拓展阅读了Etcd的Raft源码
+  - lab1：实现简单的MapReduce
+  - lab2：实现Raft算法库，包括leader选举、PreVote、日志复制、snapshot
+  - lab3：基于Raft的高可用KV存储
+  - lab4：采用Multi-Raft架构的分片高可用KV存储，以及实现一个基于Raft的Master负责shard迁移
 
 - **TinyKV** (WIP) : *https://github.com/howz97/tinykv*
 
-  PingCAP Talent-Plan课程中的TP302系列。分为4个子项目，现已完成前2个。实现了无锁的Raft
+  属于Talent-Plan课程。
+  - project1：基于badgerDB的KV存储
+  - project2：基于Raft的高可用KV存储。实现算法、持久化与网络解耦的Raft库，包括leader选举、日志复制、垃圾日志回收与快照。
 
-- **Talent-Plan TP201** : *https://github.com/howz97/kvs*
+- **Practical Networked Applications in Rust** : *https://github.com/howz97/kvs*
   
-  PingCAP Talent-Plan课程中的TP201系列。Rust实现的kv存储，基于bitcask算法
+  属于Talent-Plan课程。Rust实现的网络kv存储应用，基于Tokio实现高并发，存储引擎基于bitcask论文，支持后台线程压缩日志。
 
 - **Timer** : *https://crates.io/crates/time_wheel*
   
