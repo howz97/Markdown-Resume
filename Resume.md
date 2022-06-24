@@ -37,18 +37,18 @@
 
 - tap4fun，服务器开发工程师(Golang) 【2020.7~2021.11】
 
-   参与《猿族时代》的开发。后来负责《战地风暴》的开发与维护。工作中主要接触Golang。
+   参与《猿族时代》的开发。随后负责《战地风暴》的开发与维护，设计并实现了底层地图刷怪模块，实现各种业务需求，线上问题排查修复。
 
 ## <img src="assets/project-diagram-solid.svg" width="30px"> 个人项目
 
 - **Algorithm** : *https://github.com/howz97/algorithm*
 
-  根据教材[《算法》](https://book.douban.com/subject/19952400/)(Sedgewick著) 实现的Golang算法库，应用泛型。项目首页可查看目录详情，简单列出：
-  - 排序。快速排序、堆排序、Shell排序、归并排序 等等
-  - 查找。二叉树、AVL、红黑树、哈希表
-  - 图。Kosaraju、Prim、Kruskal、Dijkstra、Topological、BellmanFord 等等
-  - 字符串。string排序、Trie树、子串查找、正则匹配、压缩算法
-  - 优先队列。二叉堆、左式堆、二项队列
+  根据教材[《算法》](https://book.douban.com/subject/19952400/)(Sedgewick著) 实现的Golang算法库，应用泛型。项目首页可查看详细目录，包括：
+  - 排序：快速排序、堆排序、Shell排序、归并排序 等等
+  - 查找：二叉树、AVL、红黑树、哈希表
+  - 图：Kosaraju、Prim、Kruskal、Dijkstra、Topological、BellmanFord 等等
+  - 字符串：string排序、Trie树、子串查找、正则匹配、压缩算法
+  - 优先队列：二叉堆、左式堆、二项队列
 
 - **MIT6.824** : *https://gitee.com/howz97/mit6.824*
 
@@ -56,17 +56,18 @@
   - lab1：实现简单的MapReduce
   - lab2：实现Raft算法库，包括leader选举、PreVote、日志复制、snapshot
   - lab3：基于Raft的高可用KV存储
-  - lab4：采用Multi-Raft架构的分片高可用KV存储，以及实现一个基于Raft的Master负责shard迁移
+  - lab4：采用Multi-Raft架构的数据分片高可用KV存储，以及实现基于Raft的Master负责shard迁移
 
-- **TinyKV** (WIP) : *https://github.com/howz97/tinykv*
+- **TinyKV** : *https://github.com/howz97/tinykv*
 
   属于Talent-Plan课程。
   - project1：基于badgerDB的KV存储
-  - project2：基于Raft的高可用KV存储。实现算法、持久化与网络解耦的Raft库，包括leader选举、日志复制、垃圾日志回收与快照。
+  - project2：实现算法、持久化与网络解耦的Raft库，包括leader选举、日志复制、垃圾日志回收与快照。基于此Raft库实现高可用KV存储
+  - project3/4：WIP
 
 - **Practical Networked Applications in Rust** : *https://github.com/howz97/kvs*
   
-  属于Talent-Plan课程。Rust实现的网络kv存储应用，基于Tokio实现高并发，存储引擎基于bitcask论文，支持后台线程压缩日志。
+  属于Talent-Plan课程。Rust实现的网络kv存储应用，使用Tokio作为异步runtime实现高并发，存储引擎基于bitcask论文，支持后台线程压缩日志。
 
 - **Timer** : *https://crates.io/crates/time_wheel*
   
