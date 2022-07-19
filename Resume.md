@@ -8,7 +8,7 @@
          ·
          <span>
              <img src="assets/envelope-solid.svg" width="18px">
-             964701944@qq.com
+             zhanghao997@qq.com
          </span>
          ·
          <span>
@@ -55,19 +55,18 @@
   MIT分布式系统课程。研读Raft,Zookeeper,ChainReplication,Spanner,GFS,MapReduce,Bitcoin等经典论文。拓展阅读了Etcd的Raft源码
   - lab1：实现简单的MapReduce
   - lab2：实现Raft算法库，包括leader选举、PreVote、日志复制、snapshot
-  - lab3：基于Raft的高可用KV存储
-  - lab4：采用Multi-Raft架构的数据分片高可用KV存储，以及实现基于Raft的Master负责shard迁移
+  - lab3：实现基于Raft的高可用KV存储
+  - lab4：实现Multi-Raft架构的高可用分片KV存储，并实现高可用的Master负责shard迁移
 
 - **TinyKV** : *https://github.com/howz97/tinykv*
 
-  属于Talent-Plan课程。
-  - project1：基于badgerDB的KV存储
-  - project2：实现算法、持久化与网络解耦的Raft库，包括leader选举、日志复制、垃圾日志回收与快照。基于此Raft库实现高可用KV存储
-  - project3/4：WIP
+  Talent-Plan课程。实现算法、持久化与网络解耦的Raft库，包括选举、PreVote、日志复制、垃圾日志回收与快照。
+  
+  实现Multi-Raft架构的KV存储，支持成员配置变更、leader转让、只读操作优化、自动分区、分区调度、基于MVCC的分布式事务
 
 - **Practical Networked Applications in Rust** : *https://github.com/howz97/kvs*
   
-  属于Talent-Plan课程。Rust实现的网络kv存储应用，使用Tokio作为异步runtime实现高并发，存储引擎基于bitcask论文，支持后台线程压缩日志。
+  Talent-Plan课程。Rust实现的网络kv存储应用，使用Tokio作为异步runtime实现高并发，存储引擎基于bitcask论文，支持后台线程压缩日志。
 
 - **Timer** : *https://crates.io/crates/time_wheel*
   
@@ -76,5 +75,5 @@
 ## <img src="assets/tools-solid.svg" width="30px"> 技能
 
 - ★★★ Golang、算法、Raft
-- ★★☆ Rust、分布式系统
-- ★☆☆ Spanner、区块链
+- ★★☆ Rust、分布式KV
+- ★☆☆ Spanner、Bitcoin
