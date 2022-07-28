@@ -31,13 +31,15 @@
 
 ## <img src="assets/graduation-cap-solid.svg" width="30px"> 教育经历
 
-- 学士，华北电力大学(保定)，软件工程 【2016.9~2020.7】
+- 学士，华北电力大学(保定)，软件工程 【2016~2020】
 
 ## <img src="assets/briefcase-solid.svg" width="30px"> 工作经历
 
-- tap4fun，服务器开发工程师(Golang) 【2020.7~2021.11】
+- tap4fun，Golang服务器开发 【2020.7~2021.11】
 
-   参与《猿族时代》的开发。随后负责《战地风暴》的开发与维护，设计并实现了底层地图刷怪模块，实现各种业务需求，线上问题排查修复。
+   先后参与《猿族时代》《战地风暴》的开发与维护，负责设计并实现底层地图刷怪模块及各种业务需求。
+
+- 右脚手术，康复训练。自学分布式技术 【2021.12~至今】
 
 ## <img src="assets/project-diagram-solid.svg" width="30px"> 个人项目
 
@@ -60,13 +62,15 @@
 
 - **TinyKV** : *https://github.com/howz97/tinykv*
 
-  Talent-Plan课程。实现算法、持久化与网络解耦的Raft库，包括选举、PreVote、日志复制、垃圾日志回收与快照。
+  Talent-Plan课程，基于TiKV模型构建分布式KV存储服务。
   
-  实现Multi-Raft架构的KV存储，支持成员配置变更、leader转让、只读操作优化、自动分区、分区调度、基于MVCC的分布式事务
+  实现算法、持久化与网络解耦的Raft库。包括选举、PreVote、日志复制、日志回收与快照、成员配置变更、leader转让、只读操作优化。
+  
+  实现Multi-Raft架构的KV存储，支持自动分片、分片调度、基于MVCC的分布式事务
 
 - **Practical Networked Applications in Rust** : *https://github.com/howz97/kvs*
   
-  Talent-Plan课程。Rust实现的网络kv存储应用，使用Tokio作为异步runtime实现高并发，存储引擎基于bitcask论文，支持后台线程压缩日志。
+  Talent-Plan课程。Rust实现的单机kv存储，使用Tokio作为异步runtime实现高并发，存储引擎基于bitcask论文，支持后台线程压缩日志。
 
 - **Timer** : *https://crates.io/crates/time_wheel*
   
