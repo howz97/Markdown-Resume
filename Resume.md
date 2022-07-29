@@ -62,15 +62,15 @@
 
 - **TinyKV** : *https://github.com/howz97/tinykv*
 
-  Talent-Plan课程，基于TiKV模型构建分布式KV存储服务。
+  基于TiKV模型构建分布式KV存储服务。
   
   实现算法、持久化与网络解耦的Raft库。包括选举、PreVote、日志复制、日志回收与快照、成员配置变更、leader转让、只读操作优化。
   
   实现Multi-Raft架构的KV存储，支持自动分片、分片调度、基于MVCC的分布式事务
 
-- **Practical Networked Applications in Rust** : *https://github.com/howz97/kvs*
+- **基于bitcask的单机KV存储** : *https://github.com/howz97/kvs*
   
-  Talent-Plan课程。Rust实现的单机kv存储，使用Tokio作为异步runtime实现高并发，存储引擎基于bitcask论文，支持后台线程压缩日志。
+  Rust实现的单机kv存储，使用Tokio作为异步runtime实现高并发，存储引擎基于bitcask论文，支持后台线程压缩日志。
 
 - **Timer** : *https://crates.io/crates/time_wheel*
   
